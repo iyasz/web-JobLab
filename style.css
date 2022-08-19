@@ -1,11 +1,12 @@
 body {
     padding: 0;
     margin: 0;
+    background: #E3EEFF;
 }
 
 .nav {
     display: flex;
-    margin-left: 19vh;
+    margin-left: 14vh;
     margin-top: 20px;
 }
 
@@ -49,14 +50,14 @@ body {
     position: relative;
 }
 .nav span {
-    margin-left: 55vh;
+    margin-left: 56vh;
     margin-top: 14px;
 }
 
 .nav span a {
     color: #007aff !important;
-    background: whitesmoke;
-    padding: 20px 27px;
+    background: white;
+    padding: 19px 29px;
     border-radius: 6px;
     font-weight: 790;
 }
