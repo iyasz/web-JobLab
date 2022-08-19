@@ -11,24 +11,45 @@ body {
 
 .nav-bar {
     margin-left: 2vh;
-    margin-top: 12px
+    margin-top: 12px;
 }
-.nav-bar a:hover {
-    color: #007aff !important;
-    transition: 0.3s;
-}
-
-.nav a {
+.nav a, .nav span a {
     text-decoration: none;
     font-family: "Overpass",sans-serif;
     font-weight: 600;
     color: #18304b;
     font-size: 18px;
     margin-left: 30px;
+    
 }
 
+.nav-bar a {
+    display: inline-block;
+
+}
+.nav-bar a:hover {
+    color: #007aff !important;
+    transition: 0.3s;
+}
+
+.nav-bar a::after {
+    content: "";
+    border-bottom: 2px solid #007aff !important;
+    display: block;
+    transform: scale(0, 1);
+    transform-origin: 0% 100%;
+    transition: 250ms ease-in-out;
+    position: relative;
+    top: 11px;
+    right: 1px;
+}
+
+.nav-bar a:hover:after {
+    transform: scale(1.1, 1);
+    position: relative;
+}
 .nav span {
-    margin-left: 54vh;
+    margin-left: 55vh;
     margin-top: 14px;
 }
 
