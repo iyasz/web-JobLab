@@ -1,4 +1,7 @@
-@import url(https://www.1001fonts.com/overpass-font.html?text=Searching%20for%20a%20job%3F);
+@font-face {
+    font-family: overpass;
+    src: url(overpass.regular.ttf);
+}
 
 body {
     padding: 0;
@@ -72,7 +75,13 @@ body {
     color: #18304b;
     font-size: 56px;
     font-family:  overpass, sans-serif;
-    
+    font-weight: 600;
+    letter-spacing: 1.1px;
+    line-height: 1.4;
+}
+
+.middleTextBody span {
+    color: #007aff;
 }
 
     /* @media only screen and (min-width: 992px) and (max-width: 1199px) .slider-area .hero__caption h1 {
