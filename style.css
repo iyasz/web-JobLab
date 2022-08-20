@@ -1,3 +1,5 @@
+@import url(https://www.1001fonts.com/overpass-font.html?text=Searching%20for%20a%20job%3F);
+
 body {
     padding: 0;
     margin: 0;
@@ -14,20 +16,23 @@ body {
     margin-left: 2vh;
     margin-top: 12px;
 }
-.nav a, .nav span a {
+
+.nav a,
+.nav span a {
     text-decoration: none;
-    font-family: "Overpass",sans-serif;
+    font-family: "Overpass", sans-serif;
     font-weight: 600;
     color: #18304b;
     font-size: 18px;
     margin-left: 30px;
-    
+
 }
 
 .nav-bar a {
     display: inline-block;
 
 }
+
 .nav-bar a:hover {
     color: #007aff !important;
     transition: 0.3s;
@@ -49,6 +54,7 @@ body {
     transform: scale(1.1, 1);
     position: relative;
 }
+
 .nav span {
     margin-left: 56vh;
     margin-top: 14px;
@@ -61,3 +67,14 @@ body {
     border-radius: 6px;
     font-weight: 790;
 }
+
+.middleTextBody h1 {
+    color: #18304b;
+    font-size: 56px;
+    font-family:  overpass, sans-serif;
+    
+}
+
+    /* @media only screen and (min-width: 992px) and (max-width: 1199px) .slider-area .hero__caption h1 {
+        font-size: 60px;
+    } */
