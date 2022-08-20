@@ -16,7 +16,7 @@ body {
 .colorB {
     background: #017BFD;
     z-index: 1;
-    height: 300px;
+    height: 780px;
     width: 321px;
     position: absolute;
     top: 0;
@@ -47,7 +47,6 @@ body {
 
 .nav-bar a {
     display: inline-block;
-
 }
 
 .nav-bar a:hover {
@@ -63,7 +62,7 @@ body {
     transform-origin: 0% 100%;
     transition: 0.4s ease-in-out;
     position: relative;
-    top: 11px;
+    top: 9px;
     right: 1px;
 }
 
@@ -73,14 +72,15 @@ body {
 }
 
 .nav span {
-    margin-left: 56vh;
-    margin-top: 14px;
+    margin-left: 58vh;
+    margin-top: 10px;
+    z-index: 2;
 }
 
 .nav span a {
     color: #007aff !important;
     background: white;
-    padding: 19px 29px;
+    padding: 17px 31px;
     border-radius: 6px;
     font-weight: 790;
 }
@@ -92,7 +92,7 @@ body {
 
 .middleTextBody h1 {
     color: #18304b;
-    font-size: 54px;
+    font-size: 53px;
     font-family:  overpass;
     font-weight: 600;
     letter-spacing: 1.1px;
@@ -103,6 +103,9 @@ body {
     color: #007aff;
 }
 
-    /* @media only screen and (min-width: 992px) and (max-width: 1199px) .slider-area .hero__caption h1 {
-        font-size: 60px;
-    } */
+.job {
+    background: white;
+    width: 400px;
+    height: 90px;
+    border-radius: 4px;
+}
